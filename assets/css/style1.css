@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+}
+body {
+    font-family: 'Lato';
+    font-size: 18px;
+    background-image: url(../images/map-bg.jpg);
+}
 /* 
     Add a CSS ruleset to accomplish the following:
     - Use the 'Lato' font family at 18px throughout the body of the document
@@ -14,6 +24,8 @@ nav {
     width: 900px;
     margin: 10px auto;
 }
+
+
 
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
